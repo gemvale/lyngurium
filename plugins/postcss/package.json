@@ -1,0 +1,34 @@
+{
+    "name": "@lyngurium/postcss",
+    "version": "0.1.0",
+    "description": "A PostCSS plugin for Lyngurium",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.mjs",
+            "require": "./dist/index.js"
+        },
+        "./package.json": "./package.json"
+    },
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "dependencies": {
+        "@ammolite/postcss": "catalog:dep",
+        "ts-vista": "catalog:dep"
+    },
+    "devDependencies": {
+        "postcss": "catalog:dev"
+    },
+    "peerDependencies": {
+        "postcss": "catalog:peer"
+    },
+    "peerDependenciesMeta": {
+        "postcss": {
+            "optional": true
+        }
+    }
+}

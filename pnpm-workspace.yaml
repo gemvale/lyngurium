@@ -1,0 +1,46 @@
+packages:
+    - ./packages/*
+    - ./plugins/*
+    - ./templates/*
+
+catalogs:
+    dep:
+        # core
+        ts-vista: ~0.2.3
+        # ammolite
+        "@ammolite/integration": ~0.1.0
+        "@ammolite/rsbuild": ~0.1.0
+        "@ammolite/postcss": ~0.1.0
+        ammolite: ~0.1.0
+        # react
+        "@types/react": ^19.2.14
+        "@types/react-dom": ^19.2.0
+        react: ^19.2.0
+        react-dom: ^19.2.0
+    dev:
+        # rsbuild
+        "@rsbuild/core": 1.7.0
+        # postcss
+        postcss: 8.5.0
+    peer:
+        # rsbuild
+        "@rsbuild/core": ^1.7.0
+        # postcss
+        postcss: ^8.5.0
+
+minimumReleaseAge: 1440
+
+minimumReleaseAgeExclude:
+    # config
+    - "@apst/biome"
+    - "@apst/tsconfig"
+    - "@apst/tsdown"
+    # core
+    - "ts-vista"
+    # ammolite
+    - "@ammolite/compiler"
+    - "@ammolite/integration"
+    - "@ammolite/unplugin"
+    - "@ammolite/rsbuild"
+    - "@ammolite/postcss"
+    - "ammolite"

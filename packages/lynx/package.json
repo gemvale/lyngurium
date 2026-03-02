@@ -1,0 +1,25 @@
+{
+    "name": "lyngurium",
+    "version": "0.1.0",
+    "description": "A CSS-in-JS library for Lynx",
+    "exports": {
+        ".": {
+            "types": "./dist/index.d.ts",
+            "import": "./dist/index.mjs",
+            "require": "./dist/index.js"
+        },
+        "./package.json": "./package.json"
+    },
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "dependencies": {
+        "@lynx-js/types": "^3.7.0",
+        "ammolite": "catalog:dep",
+        "csstype": "^3.2.3",
+        "ts-vista": "catalog:dep"
+    }
+}

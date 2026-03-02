@@ -1,0 +1,11 @@
+{
+    "extends": "@apst/tsconfig",
+    "compilerOptions": {
+        "composite": true,
+        "jsx": "react-jsx",
+        "noEmit": true
+    },
+    "include": [
+        "./src"
+    ]
+}
