@@ -1,0 +1,17 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "test": "vitest run"
+    },
+    "dependencies": {
+        "lyngurium": "workspace:*"
+    },
+    "devDependencies": {
+        "@lyngurium/postcss": "workspace:*",
+        "@lyngurium/rsbuild": "workspace:*",
+        "@rslib/core": "catalog:dep",
+        "vite-tsconfig-paths": "catalog:dep",
+        "vitest": "catalog:dep"
+    }
+}

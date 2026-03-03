@@ -32,6 +32,12 @@ This repository is a pnpm workspace.
 - `plugins/rsbuild` - Rsbuild integration
 - `plugins/postcss` - PostCSS integration
 
+### Tests
+
+- `tests/variables` - Variable tests
+- `tests/keyframes` - Keyframes tests
+- `tests/style` - Style tests
+
 ## Code Standards
 
 Language:
@@ -122,6 +128,12 @@ Build:
 
 ```sh
 just build
+```
+
+Test:
+
+```sh
+just test
 ```
   
 ## What NOT to Do

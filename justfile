@@ -17,12 +17,15 @@ postcss := "plugins/postcss"
 tmpl_lynx := "templates/lynx"
 tmpl_lynx_web := "templates/lynx-web"
 
+tst_var := "tests/variables"
+tst_kfs := "tests/keyframes"
+tst_sty := "tests/style"
+
 # Default action
 _:
     just build
     just lint
     just fmt
-    just build
     just test
 
 # Install
@@ -71,9 +74,16 @@ build:
     cd ./{{rsbuild}} && {{tsdown}} -c tsdown.config.ts
     cd ./{{postcss}} && {{tsdown}} -c tsdown.config.ts
 
+# Run tests
+test:
+    cd ./{{tst_var}} && {{vitest}} run
+    cd ./{{tst_kfs}} && {{vitest}} run
+    cd ./{{tst_sty}} && {{vitest}} run
+
 # Clean builds (Linux)
 clean-linux:
     rm -rf ./templates/*/dist
+    rm -rf ./tests/*/dist
     rm -rf ./plugins/*/dist
     rm -rf ./packages/*/dist
 
@@ -84,6 +94,7 @@ clean-macos:
 # Clean builds (Windows)
 clean-windows:
     Remove-Item -Recurse -Force ./templates/*/dist
+    Remove-Item -Recurse -Force ./tests/*/dist
     Remove-Item -Recurse -Force ./plugins/*/dist
     Remove-Item -Recurse -Force ./packages/*/dist
 
@@ -96,6 +107,7 @@ clean-all-linux:
     just clean
 
     rm -rf ./templates/*/node_modules
+    rm -rf ./tests/*/node_modules
     rm -rf ./plugins/*/node_modules
     rm -rf ./packages/*/node_modules
 
@@ -110,6 +122,7 @@ clean-all-windows:
     just clean
 
     Remove-Item -Recurse -Force ./templates/*/node_modules
+    Remove-Item -Recurse -Force ./tests/*/node_modules
     Remove-Item -Recurse -Force ./plugins/*/node_modules
     Remove-Item -Recurse -Force ./packages/*/node_modules
 

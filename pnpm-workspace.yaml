@@ -1,6 +1,7 @@
 packages:
     - ./packages/*
     - ./plugins/*
+    - ./tests/*
     - ./templates/*
 
 catalogs:
@@ -12,6 +13,11 @@ catalogs:
         "@ammolite/rsbuild": ~0.1.0
         "@ammolite/postcss": ~0.1.0
         ammolite: ~0.1.0
+        # rspack
+        "@rslib/core": ~0.19.6
+        # vite
+        vitest: ^4.0.18
+        vite-tsconfig-paths: ^6.1.0
         # react
         "@types/react": ^19.2.14
         "@types/react-dom": ^19.2.0
