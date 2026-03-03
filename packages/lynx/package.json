@@ -17,7 +17,7 @@
         "dist"
     ],
     "dependencies": {
-        "@lynx-js/types": "^3.7.0",
+        "@lynx-js/types": "^3.6.0",
         "ammolite": "catalog:dep",
         "csstype": "^3.2.3",
         "ts-vista": "catalog:dep"
