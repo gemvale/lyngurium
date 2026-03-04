@@ -7,14 +7,14 @@ settings:
 catalogs:
   dep:
     '@ammolite/integration':
-      specifier: ~0.1.0
-      version: 0.1.0
+      specifier: ~0.1.1
+      version: 0.1.1
     '@ammolite/postcss':
-      specifier: ~0.1.0
-      version: 0.1.0
+      specifier: ~0.1.1
+      version: 0.1.1
     '@ammolite/rsbuild':
-      specifier: ~0.1.0
-      version: 0.1.0
+      specifier: ~0.1.1
+      version: 0.1.1
     '@rsbuild/core':
       specifier: ^1.7.0
       version: 1.7.3
@@ -28,8 +28,8 @@ catalogs:
       specifier: ^19.2.0
       version: 19.2.3
     ammolite:
-      specifier: ~0.1.0
-      version: 0.1.0
+      specifier: ~0.1.1
+      version: 0.1.1
     react:
       specifier: ^19.2.0
       version: 19.2.4
@@ -89,7 +89,7 @@ importers:
         version: 3.7.0
       ammolite:
         specifier: catalog:dep
-        version: 0.1.0
+        version: 0.1.1
       csstype:
         specifier: ^3.2.3
         version: 3.2.3
@@ -101,7 +101,7 @@ importers:
     dependencies:
       '@ammolite/postcss':
         specifier: catalog:dep
-        version: 0.1.0(picomatch@4.0.3)(postcss@8.5.0)
+        version: 0.1.1(picomatch@4.0.3)(postcss@8.5.0)
       ts-vista:
         specifier: catalog:dep
         version: 0.2.3
@@ -114,10 +114,10 @@ importers:
     dependencies:
       '@ammolite/integration':
         specifier: catalog:dep
-        version: 0.1.0(picomatch@4.0.3)
+        version: 0.1.1(picomatch@4.0.3)
       '@ammolite/rsbuild':
         specifier: catalog:dep
-        version: 0.1.0(@rsbuild/core@1.7.0)(picomatch@4.0.3)(rollup@4.59.0)(vite@7.3.1(@types/node@25.3.3)(jiti@2.6.1))
+        version: 0.1.1(@rsbuild/core@1.7.0)(picomatch@4.0.3)(rollup@4.59.0)(vite@7.3.1(@types/node@25.3.3)(jiti@2.6.1))
       ts-vista:
         specifier: catalog:dep
         version: 0.2.3
@@ -268,30 +268,30 @@ importers:
 
 packages:
 
-  '@ammolite/compiler@0.1.0':
-    resolution: {integrity: sha512-0oYBniKS7UbCtMfziZRQ15dMkrFwSnJuDKmZ2pKJRGF57HRNu7EtaVNCxmvjwqzSKAOa9Lm7i7RbEKh6tcUCMQ==}
+  '@ammolite/compiler@0.1.1':
+    resolution: {integrity: sha512-qAvcuYYBofiQUdWLfYXq9C/KH8bZzxFLR6Qx2hVyDY+K+3NrZ9639Qg8NCaNgG3d/wTzTCNmEIBU6WdVmUbBYw==}
 
-  '@ammolite/integration@0.1.0':
-    resolution: {integrity: sha512-gaxnrg9hlmmqV/DLUHkthawGYCGvtqlv3ClDBEe3oNSuRaVmcgmqQyT/jaIMu+sJzOsSKovVWZxR15q0Vs7k0Q==}
+  '@ammolite/integration@0.1.1':
+    resolution: {integrity: sha512-DlEBhN7Z1D5vkDqzc1C7DPMaOc3sWnGULiTGRpBRDztwDPwsISOO9U7JMk4b5OLd8XAWR3VJtOLEyNO0qqYM7Q==}
 
-  '@ammolite/postcss@0.1.0':
-    resolution: {integrity: sha512-Ro8CAOFBeK1Io24UQsu44PgPcjpMot2i1zGwxYoT7LcK608t0cnjocvXppmefjWDVl7M5n/skdTgGWmlbmvu9w==}
+  '@ammolite/postcss@0.1.1':
+    resolution: {integrity: sha512-pRCmR/yUhze0qeQWwSUPkJ/W9Lo/MuBLpGzor2JUbYnRI9SmXKJJCDKCObrD1/9c011bKZuRX0tOrGAF+Q4CCQ==}
     peerDependencies:
       postcss: ^8.5.0
     peerDependenciesMeta:
       postcss:
         optional: true
 
-  '@ammolite/rsbuild@0.1.0':
-    resolution: {integrity: sha512-MEvB99yAp3q9fM6hoFmH6qgi2hf52JDDWChZn8QU4s6lZOsmjoC2N+H3ATQuaMLDn/0tq3Iy1fYnYCxVZWn7sA==}
+  '@ammolite/rsbuild@0.1.1':
+    resolution: {integrity: sha512-d7p5EEaGIbb+BewknYjRBL9GSbyK7aDTN64VBs2yJIw2dXt+sbK3o8XGfoaiATEEflcKAcbCOkRLUNo30lTNVA==}
     peerDependencies:
       '@rsbuild/core': ^1.5.0
     peerDependenciesMeta:
       '@rsbuild/core':
         optional: true
 
-  '@ammolite/unplugin@0.1.0':
-    resolution: {integrity: sha512-CwTB8/7MZBZH5TJt1aC+oNMEvDwZrd/rLvu1HuR8RuP8dqCr90GuBvL8HXnOip22lVdqvdqupCbtzqw4DFH9/g==}
+  '@ammolite/unplugin@0.1.1':
+    resolution: {integrity: sha512-mvkct7g9e+gAsz4tzB+eDnC8+4tq/BoDninZvVcFDjmUt1UOlKE7i6tofrZghEgeZtXO3/Lbe8XGTbguUrUqdQ==}
     peerDependencies:
       rollup: ^4.40.0
       vite: ^7.0.0
@@ -1812,8 +1812,8 @@ packages:
   ajv@8.18.0:
     resolution: {integrity: sha512-PlXPeEWMXMZ7sPYOHqmDyCJzcfNrUr3fGNKtezX14ykXOEIvyK81d+qydx89KY5O71FKMPaQ2vBfBFI5NHR63A==}
 
-  ammolite@0.1.0:
-    resolution: {integrity: sha512-scZ7EypHzcZ4IlSkpzBipW6zNuULOwhcPbyO9yqXt/Wlw6AhB3tQqzJstfnYbrsbS75pGIy34KCsjme/2nHkTA==}
+  ammolite@0.1.1:
+    resolution: {integrity: sha512-XG0AQ/Ke4tzpm1AsVzGwNe40Etfubsh2vZQvQ0yGLDepdHRUNjNDUEY769vVnJa59eIQ6k57nOKWaCbzOer9aQ==}
 
   ansi-regex@5.0.1:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
@@ -3675,7 +3675,7 @@ packages:
 
 snapshots:
 
-  '@ammolite/compiler@0.1.0(picomatch@4.0.3)':
+  '@ammolite/compiler@0.1.1(picomatch@4.0.3)':
     dependencies:
       es-toolkit: 1.44.0
       esrap: 2.2.3
@@ -3686,9 +3686,9 @@ snapshots:
     transitivePeerDependencies:
       - picomatch
 
-  '@ammolite/integration@0.1.0(picomatch@4.0.3)':
+  '@ammolite/integration@0.1.1(picomatch@4.0.3)':
     dependencies:
-      '@ammolite/compiler': 0.1.0(picomatch@4.0.3)
+      '@ammolite/compiler': 0.1.1(picomatch@4.0.3)
       es-toolkit: 1.44.0
       ts-vista: 0.2.3
       unstorage: 1.17.4
@@ -3715,9 +3715,9 @@ snapshots:
       - picomatch
       - uploadthing
 
-  '@ammolite/postcss@0.1.0(picomatch@4.0.3)(postcss@8.5.0)':
+  '@ammolite/postcss@0.1.1(picomatch@4.0.3)(postcss@8.5.0)':
     dependencies:
-      '@ammolite/integration': 0.1.0(picomatch@4.0.3)
+      '@ammolite/integration': 0.1.1(picomatch@4.0.3)
       fdir: 6.5.0(picomatch@4.0.3)
       ts-vista: 0.2.3
     optionalDependencies:
@@ -3744,9 +3744,9 @@ snapshots:
       - picomatch
       - uploadthing
 
-  '@ammolite/rsbuild@0.1.0(@rsbuild/core@1.7.0)(picomatch@4.0.3)(rollup@4.59.0)(vite@7.3.1(@types/node@25.3.3)(jiti@2.6.1))':
+  '@ammolite/rsbuild@0.1.1(@rsbuild/core@1.7.0)(picomatch@4.0.3)(rollup@4.59.0)(vite@7.3.1(@types/node@25.3.3)(jiti@2.6.1))':
     dependencies:
-      '@ammolite/unplugin': 0.1.0(picomatch@4.0.3)(rollup@4.59.0)(vite@7.3.1(@types/node@25.3.3)(jiti@2.6.1))
+      '@ammolite/unplugin': 0.1.1(picomatch@4.0.3)(rollup@4.59.0)(vite@7.3.1(@types/node@25.3.3)(jiti@2.6.1))
       ts-vista: 0.2.3
     optionalDependencies:
       '@rsbuild/core': 1.7.0
@@ -3775,9 +3775,10 @@ snapshots:
       - vite
       - webpack
 
-  '@ammolite/unplugin@0.1.0(picomatch@4.0.3)(rollup@4.59.0)(vite@7.3.1(@types/node@25.3.3)(jiti@2.6.1))':
+  '@ammolite/unplugin@0.1.1(picomatch@4.0.3)(rollup@4.59.0)(vite@7.3.1(@types/node@25.3.3)(jiti@2.6.1))':
     dependencies:
-      '@ammolite/integration': 0.1.0(picomatch@4.0.3)
+      '@ammolite/integration': 0.1.1(picomatch@4.0.3)
+      es-toolkit: 1.44.0
       ts-vista: 0.2.3
       unplugin: 3.0.0
     optionalDependencies:
@@ -5108,7 +5109,7 @@ snapshots:
       json-schema-traverse: 1.0.0
       require-from-string: 2.0.2
 
-  ammolite@0.1.0:
+  ammolite@0.1.1:
     dependencies:
       csstype: 3.2.3
       html-tag-types: 0.0.1

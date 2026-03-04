@@ -9,10 +9,10 @@ catalogs:
         # core
         ts-vista: ~0.2.3
         # ammolite
-        "@ammolite/integration": ~0.1.0
-        "@ammolite/rsbuild": ~0.1.0
-        "@ammolite/postcss": ~0.1.0
-        ammolite: ~0.1.0
+        "@ammolite/integration": ~0.1.1
+        "@ammolite/rsbuild": ~0.1.1
+        "@ammolite/postcss": ~0.1.1
+        ammolite: ~0.1.1
         # rspack
         "@rsbuild/core": ^1.7.0
         "@rslib/core": ~0.19.6
