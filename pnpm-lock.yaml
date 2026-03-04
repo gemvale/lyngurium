@@ -145,8 +145,8 @@ importers:
         specifier: ^5.0.1
         version: 5.0.1
       '@lynx-js/qrcode-rsbuild-plugin':
-        specifier: ~0.4.4
-        version: 0.4.5
+        specifier: ~0.4.6
+        version: 0.4.6
       '@lynx-js/react-rsbuild-plugin':
         specifier: ~0.12.7
         version: 0.12.8(@lynx-js/react@0.116.3(@lynx-js/types@3.7.0)(@types/react@18.3.28))
@@ -821,8 +821,8 @@ packages:
   '@lynx-js/preact-devtools@5.0.1':
     resolution: {integrity: sha512-ayUU8PJ0TVWABbd5/d/04KI18W9RY4kkaRekBXXbRE/eBkGMZ3lVJ0zOB+B+85B9RUpvEVK2FleqJkS+qBKG6Q==}
 
-  '@lynx-js/qrcode-rsbuild-plugin@0.4.5':
-    resolution: {integrity: sha512-TOLzeO8oNUv9l+D8DR40kbKSBjNShECwwXBPVfivxjqynC/LBdrKWdkAL4BMCUcv42s9w+cl0ODqHc7S8MsWeg==}
+  '@lynx-js/qrcode-rsbuild-plugin@0.4.6':
+    resolution: {integrity: sha512-KHnvkccapEWEtfRMJ4GxNoZDsv8c0RlfNfc3la/z8G2eP+vb8VtKG1Atk2FVagUVnJcuePeuue8LaivzoM/Irw==}
     engines: {node: '>=18'}
 
   '@lynx-js/react-alias-rsbuild-plugin@0.12.8':
@@ -4215,7 +4215,7 @@ snapshots:
       errorstacks: 2.4.1
       htm: 3.1.1
 
-  '@lynx-js/qrcode-rsbuild-plugin@0.4.5': {}
+  '@lynx-js/qrcode-rsbuild-plugin@0.4.6': {}
 
   '@lynx-js/react-alias-rsbuild-plugin@0.12.8': {}
 
