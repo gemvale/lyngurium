@@ -21,6 +21,8 @@ jobs:
                       code: ubuntu-latest
                     - name: macOS
                       code: macos-latest
+                    - name: Windows
+                      code: windows-latest
                 node:
                     - 20
                     - 22
