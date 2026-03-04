@@ -12,6 +12,10 @@ Lyngurium is a transplant of [Ammolite](https://github.com/gemvale/ammolite) tha
 
 For the documentation, please refer to the [gemvale.github.io](https://gemvale.github.io).
 
+## Changelog
+
+For the changelog, please refer to the [changelog](./CHANGELOG.md).
+
 ## Contributing
 
 For contributing, please refer to the [contributing guide](./CONTRIBUTING.md).
