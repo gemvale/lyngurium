@@ -7,6 +7,9 @@ tsdown := "pnpm exec tsdown"
 vitest := "pnpm exec vitest"
 typedoc := "pnpm exec typedoc"
 
+publish_dev := "pnpm publish --no-git-checks --tag dev --access public"
+publish := "pnpm publish --access public"
+
 lsl_cfg := "-config ../../../.ls-lint.yaml"
 
 lynx := "packages/lynx"
@@ -79,6 +82,34 @@ test:
     cd ./{{tst_var}} && {{vitest}} run
     cd ./{{tst_kfs}} && {{vitest}} run
     cd ./{{tst_sty}} && {{vitest}} run
+
+# Publish packages with dev tag as dry run
+publish-dev-try:
+    cd ./{{lynx}} && {{publish_dev}} --dry-run
+
+    cd ./{{rsbuild}} && {{publish_dev}} --dry-run
+    cd ./{{postcss}} && {{publish_dev}} --dry-run
+
+# Publish packages with dev tag
+publish-dev:
+    cd ./{{lynx}} && {{publish_dev}}
+
+    cd ./{{rsbuild}} && {{publish_dev}}
+    cd ./{{postcss}} && {{publish_dev}}
+
+# Publish packages as dry run
+publish-try:
+    cd ./{{lynx}} && {{publish}} --dry-run
+
+    cd ./{{rsbuild}} && {{publish}} --dry-run
+    cd ./{{postcss}} && {{publish}} --dry-run
+
+# Publish packages
+publish:
+    cd ./{{lynx}} && {{publish}}
+
+    cd ./{{rsbuild}} && {{publish}}
+    cd ./{{postcss}} && {{publish}}
 
 # Clean builds (Linux)
 clean-linux:
