@@ -1,0 +1,46 @@
+version: 2
+updates:
+    - package-ecosystem: "npm"
+      directory: "/"
+      schedule:
+          interval: "daily"
+          time: "00:00"
+          timezone: "Etc/UTC"
+      cooldown:
+          default-days: 1
+          include:
+              - "*"
+      commit-message:
+          prefix: "chore"
+      allow:
+          # root
+          - dependency-name: "@apst/biome"
+          - dependency-name: "@apst/tsconfig"
+          - dependency-name: "@apst/tsdown"
+          - dependency-name: "@biomejs/biome"
+          - dependency-name: "@typescript/native-preview"
+          - dependency-name: "tsdown"
+          - dependency-name: "typescript"
+          # rstack
+          - dependency-name: "@rslib/core"
+          - dependency-name: "@rsbuild/plugin-type-check"
+          - dependency-name: "@rsbuild/plugin-react"
+          # tests
+          - dependency-name: "vitest"
+          - dependency-name: "vite-tsconfig-paths"
+          # react (without @types/react)
+          - dependency-name: "@types/react-dom"
+          - dependency-name: "react"
+          - dependency-name: "react-dom"
+          # lynx (without @lynx-js/types)
+          - dependency-name: "@lynx-js/core"
+          - dependency-name: "@lynx-js/rspeedy"
+          - dependency-name: "@lynx-js/qrcode-rsbuild-plugin"
+          - dependency-name: "@lynx-js/preact-devtools"
+          - dependency-name: "@lynx-js/react-rsbuild-plugin"
+          - dependency-name: "@lynx-js/web-core"
+          - dependency-name: "@lynx-js/web-elements"
+          # postcss
+          - dependency-name: "postcss-load-config"
+          - dependency-name: "postcss-flexbugs-fixes"
+          - dependency-name: "postcss-preset-env"
