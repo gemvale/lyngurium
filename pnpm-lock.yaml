@@ -99,6 +99,9 @@ importers:
 
   plugins/postcss:
     dependencies:
+      '@ammolite/integration':
+        specifier: catalog:dep
+        version: 0.1.2(picomatch@4.0.3)
       '@ammolite/postcss':
         specifier: catalog:dep
         version: 0.1.2(picomatch@4.0.3)(postcss@8.5.0)

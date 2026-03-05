@@ -1,15 +1,10 @@
 import type { InputOptions, PluginOptions } from "@ammolite/postcss";
-import type { Plugin, Processor } from "postcss";
 
-import { createPlugin } from "@ammolite/postcss/create";
+import type { Plugin } from "#/create";
 
-import { name } from "../package.json";
+import { createPlugin } from "#/create";
 
-const plugin = (options?: PluginOptions): Plugin | Processor => {
-    return createPlugin({
-        name,
-    })(options);
-};
+const plugin: Plugin = createPlugin();
 
 export default plugin;
 export type { InputOptions, PluginOptions };
