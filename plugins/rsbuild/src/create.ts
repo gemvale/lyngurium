@@ -1,9 +1,10 @@
+import type { Runtime } from "@ammolite/integration/runtime";
 import type { CreatePluginOptions as CreateRsbuildPluginOptions } from "@ammolite/rsbuild/create";
 import type { RsbuildPlugin, RsbuildPluginAPI } from "@rsbuild/core";
 
 import type { PluginOptions } from "#/@types/options";
 
-import { createRuntime, type Runtime } from "@ammolite/integration/runtime";
+import { createRuntime } from "@ammolite/integration/runtime";
 import { createPlugin as createRsbuildPlugin } from "@ammolite/rsbuild/create";
 
 import { name as pkgName } from "../package.json";
