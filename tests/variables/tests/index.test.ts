@@ -7,13 +7,13 @@ import * as Path from "node:path";
 import pluginLynguriumPostCSS from "@lyngurium/postcss";
 import { pluginLyngurium } from "@lyngurium/rsbuild";
 import { createRslib } from "@rslib/core";
-import { afterEach, describe, expect, it } from "vitest";
+import { beforeAll, describe, expect, it } from "vitest";
 
 const CWD: string = process.cwd();
 
 const PATH_DIST: string = Path.join(CWD, "dist");
 
-afterEach(async (): Promise<void> => {
+beforeAll(async (): Promise<void> => {
     await Fsp.rm(PATH_DIST, {
         recursive: true,
         force: true,
