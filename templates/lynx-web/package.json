@@ -9,7 +9,7 @@
     },
     "dependencies": {
         "@lynx-js/web-core": "~0.19.7",
-        "@lynx-js/web-elements": "~0.11.3",
+        "@lynx-js/web-elements": "~0.12.0",
         "react": "catalog:dep",
         "react-dom": "catalog:dep"
     },
