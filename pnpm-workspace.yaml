@@ -42,6 +42,9 @@ minimumReleaseAgeExclude:
     - "@apst/biome"
     - "@apst/tsconfig"
     - "@apst/tsdown"
+    # tsdown
+    - "@tsdown/*"
+    - "tsdown"
     # core
     - "ts-vista"
     # ammolite
