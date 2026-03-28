@@ -26,10 +26,7 @@ tst_sty := "tests/style"
 
 # Default action
 _:
-    just build
-    just lint
-    just fmt
-    just test
+    just --list -u
 
 # Install
 i:
@@ -38,6 +35,10 @@ i:
 # Install with frozen-lockfile
 if:
     pnpm install --frozen-lockfile
+
+# Format code
+fmt:
+    {{biome}} check --write .
 
 # Lint with ls-lint
 lslint:
@@ -49,6 +50,10 @@ lslint:
     cd ./{{tmpl_lynx}}/src && ls-lint {{lsl_cfg}}
     cd ./{{tmpl_lynx_web}}/src && ls-lint {{lsl_cfg}}
 
+# Lint with typos-cli
+typos:
+    typos
+
 # Lint with TypeScript Compiler
 tsc:
     cd ./{{lynx}} && {{tsc}} --noEmit
@@ -59,16 +64,12 @@ tsc:
 # Lint code
 lint:
     just lslint
-    typos
+    just typos
     just tsc
 
 # Lint code with Biome
 lint-biome:
     {{biome}} lint .
-
-# Format code
-fmt:
-    {{biome}} check --write .
 
 # Build packages
 build:
@@ -82,6 +83,13 @@ test:
     cd ./{{tst_var}} && {{vitest}} run
     cd ./{{tst_kfs}} && {{vitest}} run
     cd ./{{tst_sty}} && {{vitest}} run
+
+# Check code
+check:
+    just fmt
+    just lint
+    just build
+    just test
 
 # Publish packages with dev tag as dry run
 publish-dev-try:
