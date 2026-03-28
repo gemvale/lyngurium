@@ -91,6 +91,10 @@ check:
     just build
     just test
 
+# Set packages version
+ver VER:
+    node ./scripts/set-ver.ts {{VER}}
+
 # Publish packages with dev tag as dry run
 publish-dev-try:
     cd ./{{lynx}} && {{publish_dev}} --dry-run
