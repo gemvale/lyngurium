@@ -175,8 +175,8 @@ importers:
   templates/lynx-web:
     dependencies:
       '@lynx-js/web-core':
-        specifier: ~0.20.0
-        version: 0.20.0(@lynx-js/css-serializer@0.1.4)(@lynx-js/lynx-core@0.1.3)(tslib@2.8.1)
+        specifier: ~0.20.1
+        version: 0.20.1(@lynx-js/lynx-core@0.1.3)(tslib@2.8.1)
       '@lynx-js/web-elements':
         specifier: ~0.12.0
         version: 0.12.0(tslib@2.8.1)
@@ -918,6 +918,20 @@ packages:
       tslib:
         optional: true
 
+  '@lynx-js/web-core@0.20.1':
+    resolution: {integrity: sha512-oC3fbxezP5P8Qj6JxyPnWioHNwk/YL5uivm+L2OwpnxajM7jyCUMBkTms4FdIHmRsFcN/f8pZ49+M1RVIleBBw==}
+    peerDependencies:
+      '@lynx-js/css-serializer': 0.1.5
+      '@lynx-js/lynx-core': 0.1.3
+      tslib: ^2.5.0
+    peerDependenciesMeta:
+      '@lynx-js/css-serializer':
+        optional: true
+      '@lynx-js/lynx-core':
+        optional: true
+      tslib:
+        optional: true
+
   '@lynx-js/web-elements@0.12.0':
     resolution: {integrity: sha512-7z8PQQSDMUWrxoizySOg1pKGIiSDeGGomOr5FV0Tx9gniHNJYx0e7/h6wQmwhyHdAZYyihyaBks88QkX8DRNEw==}
     peerDependencies:
@@ -928,6 +942,9 @@ packages:
 
   '@lynx-js/web-worker-rpc@0.20.0':
     resolution: {integrity: sha512-N+Vi7J2FeQLoDCwCQrGTOyl8fY19sQikPRIG7d2l21hEs9fKs8Z0r97w8Uw+gCS/C30pu9PvQbHi2AWWjgMhLQ==}
+
+  '@lynx-js/web-worker-rpc@0.20.1':
+    resolution: {integrity: sha512-6tXsBghwKRCeF7DXESykzUBvMKBdshF97gFsy8bAYdwt5YphZltp41zBCazV4fzqChp43yeo/CmNuHuu7kJP7w==}
 
   '@lynx-js/webpack-dev-transport@0.2.0':
     resolution: {integrity: sha512-RSy02FSoMsavEn2wna4khSJwT2uGW4XeLduKH8UDT3aCsBNM/rXndUyG6PbwMcywXCeyb8UofkhaQDtJvNJklA==}
@@ -4552,6 +4569,15 @@ snapshots:
       '@lynx-js/lynx-core': 0.1.3
       tslib: 2.8.1
 
+  '@lynx-js/web-core@0.20.1(@lynx-js/lynx-core@0.1.3)(tslib@2.8.1)':
+    dependencies:
+      '@lynx-js/web-elements': 0.12.0(tslib@2.8.1)
+      '@lynx-js/web-worker-rpc': 0.20.1
+      wasm-feature-detect: 1.8.0
+    optionalDependencies:
+      '@lynx-js/lynx-core': 0.1.3
+      tslib: 2.8.1
+
   '@lynx-js/web-elements@0.12.0(tslib@2.8.1)':
     dependencies:
       tslib: 2.8.1
@@ -4559,6 +4585,8 @@ snapshots:
   '@lynx-js/web-rsbuild-server-middleware@0.20.0': {}
 
   '@lynx-js/web-worker-rpc@0.20.0': {}
+
+  '@lynx-js/web-worker-rpc@0.20.1': {}
 
   '@lynx-js/webpack-dev-transport@0.2.0': {}
 
