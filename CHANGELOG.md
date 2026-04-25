@@ -1,5 +1,9 @@
 [< Back](./README.md)
 
+## 0.1.2 (2026-04-25)
+
+fix for dependencies
+
 ## 0.1.1 (2026-04-25)
 
 upgrade dependencies
