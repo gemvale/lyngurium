@@ -27,10 +27,12 @@
         "ts-vista": "catalog:dep"
     },
     "devDependencies": {
-        "@rsbuild/core": "catalog:dev"
+        "@rsbuild/core": "catalog:dev",
+        "@rspack/core": "catalog:dev"
     },
     "peerDependencies": {
-        "@rsbuild/core": "catalog:peer"
+        "@rsbuild/core": "catalog:peer",
+        "@rspack/core": "catalog:dev"
     },
     "peerDependenciesMeta": {
         "@rsbuild/core": {

@@ -6,6 +6,7 @@ import type { PluginOptions } from "#/@types/options";
 
 import { createRuntime } from "@ammolite/integration/runtime";
 import { createPlugin as createRsbuildPlugin } from "@ammolite/rsbuild/create";
+import { version } from "@rspack/core";
 
 import { name as pkgName } from "../package.json";
 
@@ -18,10 +19,15 @@ const createPlugin = (createOptions?: CreatePluginOptions) => {
         const runtime: Runtime =
             createOptions?.runtime ??
             createRuntime({
+                bundler: {
+                    name: "rspack",
+                    version,
+                },
                 packageName: "lyngurium",
                 cwd: options?.cwd,
                 include: options?.input?.include,
                 exclude: options?.input?.exclude,
+                tsconfigPath: options?.input?.tsconfigPath,
             });
 
         const basePlugin: RsbuildPlugin = createRsbuildPlugin({

@@ -1,4 +1,4 @@
-export type { VariablesObject, VariablesSetter } from "ammolite";
+export type { StyleValue, VariablesObject, VariablesSetter } from "ammolite";
 
 export type { CSS, Keyframes } from "#/@types/style";
 
