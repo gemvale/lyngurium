@@ -4,6 +4,13 @@ packages:
     - ./tests/*
     - ./templates/*
 
+autoInstallPeers: false
+strictPeerDependencies: false
+
+allowBuilds:
+    core-js: true
+    esbuild: false
+
 catalogs:
     dep:
         # core
