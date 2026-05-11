@@ -67,8 +67,8 @@ importers:
         specifier: ~0.3.0
         version: 0.3.0(typescript@6.0.3)
       '@apst/tsdown':
-        specifier: ~0.3.1
-        version: 0.3.1(tsdown@0.21.10(@typescript/native-preview@7.0.0-dev.20260509.2)(typescript@6.0.3))
+        specifier: ~0.4.0
+        version: 0.4.0(tsdown@0.21.10(@typescript/native-preview@7.0.0-dev.20260509.2)(typescript@6.0.3))
       '@biomejs/biome':
         specifier: ^2.4.15
         version: 2.4.15
@@ -332,10 +332,10 @@ packages:
       typescript:
         optional: true
 
-  '@apst/tsdown@0.3.1':
-    resolution: {integrity: sha512-2JItF3F//Xtf7P5EuymvobzphVtvrxlXI53OP9HR1lXTvf987n1RREp04esY1A91HdAeQ99F+SD1qwqU7hwPSQ==}
+  '@apst/tsdown@0.4.0':
+    resolution: {integrity: sha512-oAX02XEau2qwv2v8hPiPgcBDerCnxW326QbRFRc7absSzEWA7pYNCf2jM7SPFqVvVj86CQwYKh2llo7NvaQi2A==}
     peerDependencies:
-      tsdown: ~0.21.0
+      tsdown: ~0.21.0 || ~0.22.0
     peerDependenciesMeta:
       tsdown:
         optional: true
@@ -2304,8 +2304,8 @@ packages:
   es-toolkit@1.45.1:
     resolution: {integrity: sha512-/jhoOj/Fx+A+IIyDNOvO3TItGmlMKhtX8ISAHKE90c4b/k1tqaqEZ+uUqfpU8DMnW5cgNJv606zS55jGvza0Xw==}
 
-  es-toolkit@1.46.0:
-    resolution: {integrity: sha512-IToJ6ct9OLl5zz6WsC/1vZEwfSZ7Myil+ygl5Tf30Xjn9AEkzNB4kqp2G7VUJKF1DtTx/ra5M5KLlXvzOg51BA==}
+  es-toolkit@1.46.1:
+    resolution: {integrity: sha512-5eNtXOs3tbfxXOj04tjjseeWkRWaoCjdEI+96DgwzZoe6c9juL49pXlzAFTI72aWC9Y8p7168g6XIKjh7k6pyQ==}
 
   esbuild@0.27.3:
     resolution: {integrity: sha512-8VwMnyGCONIs6cWue2IdpHxHnAjzxnw2Zr7MkVxB2vjmQ2ivqGFb4LEG3SMnv0Gb2F/G/2yA8zUaiL1gywDCCg==}
@@ -3777,9 +3777,9 @@ snapshots:
     optionalDependencies:
       typescript: 6.0.3
 
-  '@apst/tsdown@0.3.1(tsdown@0.21.10(@typescript/native-preview@7.0.0-dev.20260509.2)(typescript@6.0.3))':
+  '@apst/tsdown@0.4.0(tsdown@0.21.10(@typescript/native-preview@7.0.0-dev.20260509.2)(typescript@6.0.3))':
     dependencies:
-      es-toolkit: 1.45.1
+      es-toolkit: 1.46.1
     optionalDependencies:
       tsdown: 0.21.10(@typescript/native-preview@7.0.0-dev.20260509.2)(typescript@6.0.3)
 
@@ -4637,7 +4637,7 @@ snapshots:
       '@rsdoctor/utils': 1.5.9(@rspack/core@2.0.2(@swc/helpers@0.5.21))
       '@rspack/resolver': 0.2.8(@emnapi/core@1.10.0)(@emnapi/runtime@1.10.0)
       browserslist-load-config: 1.0.1
-      es-toolkit: 1.46.0
+      es-toolkit: 1.46.1
       filesize: 10.1.6
       fs-extra: 11.3.4
       semver: 7.7.4
@@ -4656,7 +4656,7 @@ snapshots:
     dependencies:
       '@rsdoctor/types': 1.5.9(@rspack/core@2.0.2(@swc/helpers@0.5.21))
       '@rsdoctor/utils': 1.5.9(@rspack/core@2.0.2(@swc/helpers@0.5.21))
-      es-toolkit: 1.46.0
+      es-toolkit: 1.46.1
       path-browserify: 1.0.1
       source-map: 0.7.6
     transitivePeerDependencies:
@@ -5610,7 +5610,7 @@ snapshots:
 
   es-toolkit@1.45.1: {}
 
-  es-toolkit@1.46.0: {}
+  es-toolkit@1.46.1: {}
 
   esbuild@0.27.3:
     optionalDependencies:
