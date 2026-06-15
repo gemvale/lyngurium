@@ -22,7 +22,7 @@ catalogs:
         ammolite: ~0.1.4
         # rspack
         "@rsbuild/core": ^1.7.0
-        "@rslib/core": ~0.22.0
+        "@rslib/core": ~0.22.1
         # vite
         vitest: ^4.1.8
         vite-tsconfig-paths: ^6.1.0
