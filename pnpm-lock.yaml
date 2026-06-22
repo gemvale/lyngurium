@@ -181,8 +181,8 @@ importers:
   templates/lynx-web:
     dependencies:
       '@lynx-js/web-core':
-        specifier: ~0.21.0
-        version: 0.21.0(@lynx-js/css-serializer@0.1.6)(@lynx-js/lynx-core@0.1.3)(tslib@2.8.1)
+        specifier: ~0.21.1
+        version: 0.21.1(@lynx-js/css-serializer@0.1.6)(@lynx-js/lynx-core@0.1.3)(tslib@2.8.1)
       '@lynx-js/web-elements':
         specifier: ~0.12.4
         version: 0.12.4(tslib@2.8.1)
@@ -934,20 +934,6 @@ packages:
     peerDependencies:
       '@lynx-js/react': '*'
 
-  '@lynx-js/web-core@0.21.0':
-    resolution: {integrity: sha512-GrmABxobiXmFQvjTe9fiSNgZKnG+pswJjSBuD/XOlit+u7vpC1xR1yxJBocalLlSwGJVzpdFE1AbG7y14nQdBw==}
-    peerDependencies:
-      '@lynx-js/css-serializer': 0.1.6
-      '@lynx-js/lynx-core': 0.1.3
-      tslib: ^2.5.0
-    peerDependenciesMeta:
-      '@lynx-js/css-serializer':
-        optional: true
-      '@lynx-js/lynx-core':
-        optional: true
-      tslib:
-        optional: true
-
   '@lynx-js/web-core@0.21.1':
     resolution: {integrity: sha512-PfbUnZltJOYkL2d/VA58zhBpvdD3yYKEa2B06aJ0BQidfXF/MOUUVZiYcRfxMdd2NPw7xdG8V1B3yVR/+LMRag==}
     peerDependencies:
@@ -962,11 +948,6 @@ packages:
       tslib:
         optional: true
 
-  '@lynx-js/web-elements@0.12.3':
-    resolution: {integrity: sha512-2hww4llLjwl/Q6y53V4roTNnqc/KYtIq2g8E2UD3Lnh35IJKdFTOQGDfyi82vbfkLD+XAvSIHDvP+fQufV6kqg==}
-    peerDependencies:
-      tslib: ^2.5.0
-
   '@lynx-js/web-elements@0.12.4':
     resolution: {integrity: sha512-4xyJK3h8NDMYgeH488YgyLzAfxGN7TjtSaakKyVXdrbBiBEEGl2Pa8QDJl6cc8+p8fwDrj8ZsNCVgrJL+802oA==}
     peerDependencies:
@@ -974,9 +955,6 @@ packages:
 
   '@lynx-js/web-rsbuild-server-middleware@0.21.1':
     resolution: {integrity: sha512-U9wiYo50HLQhQZfgA1PNQrxYLdsh7H7PqT6E9vI//G6fpO+dBh31XnzHIGt54ewVDS9cADZXFILOmHn+DboTiw==}
-
-  '@lynx-js/web-worker-rpc@0.21.0':
-    resolution: {integrity: sha512-lRVzwz7+vMzSkcHEfDNquNH40f3oki9T3PVDMN4nsLqxu5OesFhRQhLN8HMPaNlx0OL24ZrFdGuRtu0vbxhOOA==}
 
   '@lynx-js/web-worker-rpc@0.21.1':
     resolution: {integrity: sha512-FuNt8mU3FWS7Gf6MycNqJXOfeQqWRRuw5QrBUn7fCcKMWgHvJO1kGWdS9vqQB5LJS24O9Rh6fc+OgUFzxoKcNA==}
@@ -4506,16 +4484,6 @@ snapshots:
     dependencies:
       '@lynx-js/react': 0.116.3(@lynx-js/types@3.7.0)(@types/react@18.3.28)
 
-  '@lynx-js/web-core@0.21.0(@lynx-js/css-serializer@0.1.6)(@lynx-js/lynx-core@0.1.3)(tslib@2.8.1)':
-    dependencies:
-      '@lynx-js/web-elements': 0.12.3(tslib@2.8.1)
-      '@lynx-js/web-worker-rpc': 0.21.0
-      wasm-feature-detect: 1.8.0
-    optionalDependencies:
-      '@lynx-js/css-serializer': 0.1.6
-      '@lynx-js/lynx-core': 0.1.3
-      tslib: 2.8.1
-
   '@lynx-js/web-core@0.21.1(@lynx-js/css-serializer@0.1.6)(@lynx-js/lynx-core@0.1.3)(tslib@2.8.1)':
     dependencies:
       '@lynx-js/web-elements': 0.12.4(tslib@2.8.1)
@@ -4526,12 +4494,6 @@ snapshots:
       '@lynx-js/lynx-core': 0.1.3
       tslib: 2.8.1
 
-  '@lynx-js/web-elements@0.12.3(tslib@2.8.1)':
-    dependencies:
-      dompurify: 3.4.11
-      markdown-it: 14.2.0
-      tslib: 2.8.1
-
   '@lynx-js/web-elements@0.12.4(tslib@2.8.1)':
     dependencies:
       dompurify: 3.4.11
@@ -4539,8 +4501,6 @@ snapshots:
       tslib: 2.8.1
 
   '@lynx-js/web-rsbuild-server-middleware@0.21.1': {}
-
-  '@lynx-js/web-worker-rpc@0.21.0': {}
 
   '@lynx-js/web-worker-rpc@0.21.1': {}
 
