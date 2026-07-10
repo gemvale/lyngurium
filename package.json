@@ -4,7 +4,7 @@
         "@apst/biome": "~0.3.2",
         "@apst/tsconfig": "~0.3.0",
         "@apst/tsdown": "~0.5.0",
-        "@biomejs/biome": "^2.5.2",
+        "@biomejs/biome": "^2.5.3",
         "@types/node": "^25.2.3",
         "@typescript/native-preview": "7.0.0-dev.20260707.2",
         "tsdown": "~0.22.3",
