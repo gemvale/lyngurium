@@ -157,8 +157,8 @@ importers:
         specifier: ~0.6.0
         version: 0.6.0(@lynx-js/rspeedy@0.16.2(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)(@rspack/core@2.1.7(@swc/helpers@0.5.23))(core-js@3.47.0)(typescript@6.0.3))
       '@lynx-js/react-rsbuild-plugin':
-        specifier: ~0.18.1
-        version: 0.18.1(@lynx-js/react@0.116.3(@lynx-js/types@3.7.0)(@types/react@18.3.28))(tslib@2.8.1)
+        specifier: ~0.18.2
+        version: 0.18.2(@lynx-js/react@0.116.3(@lynx-js/types@3.7.0)(@types/react@18.3.28))(tslib@2.8.1)
       '@lynx-js/rspeedy':
         specifier: ~0.16.2
         version: 0.16.2(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)(@rspack/core@2.1.7(@swc/helpers@0.5.23))(core-js@3.47.0)(typescript@6.0.3)
@@ -847,8 +847,8 @@ packages:
     peerDependencies:
       '@lynx-js/rspeedy': ^0.16.0
 
-  '@lynx-js/react-alias-rsbuild-plugin@0.18.1':
-    resolution: {integrity: sha512-llQhFA8VthyM43dcbPuLmFY3wSzELkYciN4MbzBHcbEu7Vx8+ALK8XN0ZPTXRCjgEaKRwAhSuXALgvK7NtIMCg==}
+  '@lynx-js/react-alias-rsbuild-plugin@0.18.2':
+    resolution: {integrity: sha512-93MxwMoaO1u7hXlRktumRiVtCWcTThuHgBx66ro8w4wOub+IcLVuQ072uppXWSJs2OYighjFzmsCrNYV3M8ySQ==}
     engines: {node: '>=18'}
 
   '@lynx-js/react-refresh-webpack-plugin@0.4.1':
@@ -857,8 +857,8 @@ packages:
     peerDependencies:
       '@lynx-js/react-webpack-plugin': ^0.3.0 || ^0.4.0 || ^0.5.0 || ^0.6.0 || ^0.7.0 || ^0.8.0 || ^0.9.0 || ^0.10.0
 
-  '@lynx-js/react-rsbuild-plugin@0.18.1':
-    resolution: {integrity: sha512-c+ekAagAocry6NjQMIyn67CN++fU8pStM+9khWfM2ioL/j4zL0jePiuV49gBvLBCErayOrMRB2+/IrokhnIBkw==}
+  '@lynx-js/react-rsbuild-plugin@0.18.2':
+    resolution: {integrity: sha512-cHVl/PxeR6A5u/UmR66vb1ioIQm72YhTIUHXoKGqXzVOFc+AjcDwBkgdV807FbmzZSe444STXpgVgd+xQ9ZjoA==}
     engines: {node: '>=18'}
     peerDependencies:
       '@lynx-js/react': ^0.123.0
@@ -866,8 +866,8 @@ packages:
       '@lynx-js/react':
         optional: true
 
-  '@lynx-js/react-webpack-plugin@0.10.1':
-    resolution: {integrity: sha512-nT9YQl7xIGPk5/E4bgVXAHDCRHLPKieqw602SZM9N72KtV2m99khOtyNjFGv4irs2p06u86t8Sit8zsTwLoefQ==}
+  '@lynx-js/react-webpack-plugin@0.10.2':
+    resolution: {integrity: sha512-XPBK8jOqQQ1HhA8HsUPHPR/EFYAurlr/rOoYo8s9baWUtPHMVtVuXTXOCv69arjikPGKbXKh0BHIPmhQsxaOGg==}
     engines: {node: '>=18'}
     peerDependencies:
       '@lynx-js/react': '*'
@@ -905,12 +905,12 @@ packages:
     resolution: {integrity: sha512-xqBQ+g8fJn1kPJN+7tgzypPj+FK9+8ifDVhXu9i0S6630XebdZ7ZKPehlGMNdfZPnS96Wo0EBCoEaAwJ6c9UpA==}
     engines: {node: '>=18'}
 
-  '@lynx-js/tasm@0.0.48':
-    resolution: {integrity: sha512-6JeySjqS9A424+KdBhI08Km6tdbZ/eLEpqbbLOjzwmY8VhitHOeWoU1bOpfafxYWmEpie/ip7F3IaN/6K3mmjw==}
+  '@lynx-js/tasm@0.0.49':
+    resolution: {integrity: sha512-sI+xmLXaMvXWFN5n47kYNHFEMIEpkrz/bVvU2GwvhB26lXfYPdSNedE3bh85vfW/vAmYsB/TbKwtiNhXgN3LDw==}
     hasBin: true
 
-  '@lynx-js/template-webpack-plugin@0.14.0':
-    resolution: {integrity: sha512-JIECM9FhPzNjYvxsAH4prRpfcYD2TYVcbs/73GOUAgF08EReAg/6XHupG5eAfSVSyKCatKx9NdsfqtAo5KOCxA==}
+  '@lynx-js/template-webpack-plugin@0.14.1':
+    resolution: {integrity: sha512-jHfGi/09C9kBIasX1Q8l59vy2P0c7PX9HeZrM86HeU3KWkb6cDSL+1ozzLqHSH3g3NjQqz01tja9rxlJ9WvlSg==}
     engines: {node: ^18.14 || >=19.4}
 
   '@lynx-js/types@3.7.0':
@@ -920,20 +920,6 @@ packages:
     resolution: {integrity: sha512-iXwLiGUBgfWLozCIh3ICe07x534p9CVlFS3/iGEiFOce58MLX6/PbAvWcE8qEhYaOKiQNe9hqUnS2RbyCqoqGg==}
     peerDependencies:
       '@lynx-js/react': '*'
-
-  '@lynx-js/web-core@0.23.0':
-    resolution: {integrity: sha512-ip/yMNgWzdaFOEA7HPrBGH8m278EAmJF7Z1Npcnobtci9i/yz4UaSOYhF2ruDFYKNU9AauHAgvSYRg3PngyqhQ==}
-    peerDependencies:
-      '@lynx-js/css-serializer': 0.1.7
-      '@lynx-js/lynx-core': 0.1.4
-      tslib: ^2.5.0
-    peerDependenciesMeta:
-      '@lynx-js/css-serializer':
-        optional: true
-      '@lynx-js/lynx-core':
-        optional: true
-      tslib:
-        optional: true
 
   '@lynx-js/web-core@0.23.1':
     resolution: {integrity: sha512-idssebxneMqi9FKDd+2C4IFX5DkAVF8aRs4U/HXTkjUPJpK3xt0FDw2QKkL8QAqyFCKTVrJfteAJ0FNBOGdoDA==}
@@ -956,9 +942,6 @@ packages:
 
   '@lynx-js/web-rsbuild-server-middleware@0.23.1':
     resolution: {integrity: sha512-aJUZUZnRkBWkpDMp+PCAKutBfFm13eJPTt2hU+iJXNhntEUtJvglcYiPmoSyOInDHuWj2QP7HsKfKzgD98eXvA==}
-
-  '@lynx-js/web-worker-rpc@0.23.0':
-    resolution: {integrity: sha512-nrWLMjjOmb4uMg9MITX3nyaEPO61QGGUvCvl0IIH/yxgQKtzS7qITVQlzxaBHbajZqXtRr8vnzPYBFGfUSr6dw==}
 
   '@lynx-js/web-worker-rpc@0.23.1':
     resolution: {integrity: sha512-gNLzf/fq+z2Ca6c+1U+iRW7o1HTtwjhLRMtLqYPhplWR7hStF5yqwQgehBD3cd1hDYU9CgD2oKaslA00hq9j6g==}
@@ -4584,9 +4567,9 @@ snapshots:
     dependencies:
       '@lynx-js/webpack-runtime-globals': 0.0.7
 
-  '@lynx-js/css-extract-webpack-plugin@0.10.0(@lynx-js/template-webpack-plugin@0.14.0(tslib@2.8.1))':
+  '@lynx-js/css-extract-webpack-plugin@0.10.0(@lynx-js/template-webpack-plugin@0.14.1(tslib@2.8.1))':
     dependencies:
-      '@lynx-js/template-webpack-plugin': 0.14.0(tslib@2.8.1)
+      '@lynx-js/template-webpack-plugin': 0.14.1(tslib@2.8.1)
 
   '@lynx-js/css-serializer@0.1.7':
     dependencies:
@@ -4609,20 +4592,20 @@ snapshots:
     dependencies:
       '@lynx-js/rspeedy': 0.16.2(@emnapi/core@1.11.2)(@emnapi/runtime@1.11.2)(@rspack/core@2.1.7(@swc/helpers@0.5.23))(core-js@3.47.0)(typescript@6.0.3)
 
-  '@lynx-js/react-alias-rsbuild-plugin@0.18.1': {}
+  '@lynx-js/react-alias-rsbuild-plugin@0.18.2': {}
 
-  '@lynx-js/react-refresh-webpack-plugin@0.4.1(@lynx-js/react-webpack-plugin@0.10.1(@lynx-js/react@0.116.3(@lynx-js/types@3.7.0)(@types/react@18.3.28))(@lynx-js/template-webpack-plugin@0.14.0(tslib@2.8.1)))':
+  '@lynx-js/react-refresh-webpack-plugin@0.4.1(@lynx-js/react-webpack-plugin@0.10.2(@lynx-js/react@0.116.3(@lynx-js/types@3.7.0)(@types/react@18.3.28))(@lynx-js/template-webpack-plugin@0.14.1(tslib@2.8.1)))':
     dependencies:
-      '@lynx-js/react-webpack-plugin': 0.10.1(@lynx-js/react@0.116.3(@lynx-js/types@3.7.0)(@types/react@18.3.28))(@lynx-js/template-webpack-plugin@0.14.0(tslib@2.8.1))
+      '@lynx-js/react-webpack-plugin': 0.10.2(@lynx-js/react@0.116.3(@lynx-js/types@3.7.0)(@types/react@18.3.28))(@lynx-js/template-webpack-plugin@0.14.1(tslib@2.8.1))
 
-  '@lynx-js/react-rsbuild-plugin@0.18.1(@lynx-js/react@0.116.3(@lynx-js/types@3.7.0)(@types/react@18.3.28))(tslib@2.8.1)':
+  '@lynx-js/react-rsbuild-plugin@0.18.2(@lynx-js/react@0.116.3(@lynx-js/types@3.7.0)(@types/react@18.3.28))(tslib@2.8.1)':
     dependencies:
-      '@lynx-js/css-extract-webpack-plugin': 0.10.0(@lynx-js/template-webpack-plugin@0.14.0(tslib@2.8.1))
-      '@lynx-js/react-alias-rsbuild-plugin': 0.18.1
-      '@lynx-js/react-refresh-webpack-plugin': 0.4.1(@lynx-js/react-webpack-plugin@0.10.1(@lynx-js/react@0.116.3(@lynx-js/types@3.7.0)(@types/react@18.3.28))(@lynx-js/template-webpack-plugin@0.14.0(tslib@2.8.1)))
-      '@lynx-js/react-webpack-plugin': 0.10.1(@lynx-js/react@0.116.3(@lynx-js/types@3.7.0)(@types/react@18.3.28))(@lynx-js/template-webpack-plugin@0.14.0(tslib@2.8.1))
+      '@lynx-js/css-extract-webpack-plugin': 0.10.0(@lynx-js/template-webpack-plugin@0.14.1(tslib@2.8.1))
+      '@lynx-js/react-alias-rsbuild-plugin': 0.18.2
+      '@lynx-js/react-refresh-webpack-plugin': 0.4.1(@lynx-js/react-webpack-plugin@0.10.2(@lynx-js/react@0.116.3(@lynx-js/types@3.7.0)(@types/react@18.3.28))(@lynx-js/template-webpack-plugin@0.14.1(tslib@2.8.1)))
+      '@lynx-js/react-webpack-plugin': 0.10.2(@lynx-js/react@0.116.3(@lynx-js/types@3.7.0)(@types/react@18.3.28))(@lynx-js/template-webpack-plugin@0.14.1(tslib@2.8.1))
       '@lynx-js/runtime-wrapper-webpack-plugin': 0.2.3
-      '@lynx-js/template-webpack-plugin': 0.14.0(tslib@2.8.1)
+      '@lynx-js/template-webpack-plugin': 0.14.1(tslib@2.8.1)
       '@lynx-js/use-sync-external-store': 1.5.0(@lynx-js/react@0.116.3(@lynx-js/types@3.7.0)(@types/react@18.3.28))
       background-only: 0.0.1
       tiny-invariant: 1.3.3
@@ -4632,10 +4615,10 @@ snapshots:
       - '@lynx-js/lynx-core'
       - tslib
 
-  '@lynx-js/react-webpack-plugin@0.10.1(@lynx-js/react@0.116.3(@lynx-js/types@3.7.0)(@types/react@18.3.28))(@lynx-js/template-webpack-plugin@0.14.0(tslib@2.8.1))':
+  '@lynx-js/react-webpack-plugin@0.10.2(@lynx-js/react@0.116.3(@lynx-js/types@3.7.0)(@types/react@18.3.28))(@lynx-js/template-webpack-plugin@0.14.1(tslib@2.8.1))':
     dependencies:
       '@lynx-js/debug-metadata': 0.1.0
-      '@lynx-js/template-webpack-plugin': 0.14.0(tslib@2.8.1)
+      '@lynx-js/template-webpack-plugin': 0.14.1(tslib@2.8.1)
       '@lynx-js/webpack-runtime-globals': 0.0.7
       tiny-invariant: 1.3.3
     optionalDependencies:
@@ -4687,14 +4670,14 @@ snapshots:
     dependencies:
       '@lynx-js/webpack-runtime-globals': 0.0.7
 
-  '@lynx-js/tasm@0.0.48': {}
+  '@lynx-js/tasm@0.0.49': {}
 
-  '@lynx-js/template-webpack-plugin@0.14.0(tslib@2.8.1)':
+  '@lynx-js/template-webpack-plugin@0.14.1(tslib@2.8.1)':
     dependencies:
       '@jridgewell/trace-mapping': 0.3.31
       '@lynx-js/css-serializer': 0.1.7
-      '@lynx-js/tasm': 0.0.48
-      '@lynx-js/web-core': 0.23.0(@lynx-js/css-serializer@0.1.7)(tslib@2.8.1)
+      '@lynx-js/tasm': 0.0.49
+      '@lynx-js/web-core': 0.23.1(@lynx-js/css-serializer@0.1.7)(@lynx-js/lynx-core@0.1.3)(tslib@2.8.1)
       '@lynx-js/webpack-runtime-globals': 0.0.7
       '@rspack/lite-tapable': 1.1.2
       css-tree: 3.2.1
@@ -4711,15 +4694,6 @@ snapshots:
   '@lynx-js/use-sync-external-store@1.5.0(@lynx-js/react@0.116.3(@lynx-js/types@3.7.0)(@types/react@18.3.28))':
     dependencies:
       '@lynx-js/react': 0.116.3(@lynx-js/types@3.7.0)(@types/react@18.3.28)
-
-  '@lynx-js/web-core@0.23.0(@lynx-js/css-serializer@0.1.7)(tslib@2.8.1)':
-    dependencies:
-      '@lynx-js/web-elements': 0.12.7(tslib@2.8.1)
-      '@lynx-js/web-worker-rpc': 0.23.0
-      wasm-feature-detect: 1.8.0
-    optionalDependencies:
-      '@lynx-js/css-serializer': 0.1.7
-      tslib: 2.8.1
 
   '@lynx-js/web-core@0.23.1(@lynx-js/css-serializer@0.1.7)(@lynx-js/lynx-core@0.1.3)(tslib@2.8.1)':
     dependencies:
@@ -4738,8 +4712,6 @@ snapshots:
       tslib: 2.8.1
 
   '@lynx-js/web-rsbuild-server-middleware@0.23.1': {}
-
-  '@lynx-js/web-worker-rpc@0.23.0': {}
 
   '@lynx-js/web-worker-rpc@0.23.1': {}
 
