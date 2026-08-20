@@ -21,7 +21,7 @@
         "@lynx-js/types": "^3.6.0",
         "@rsbuild/core": "catalog:dep",
         "@rsbuild/plugin-type-check": "^1.6.0",
-        "@types/react": "^18.3.27",
+        "@types/react": "^19.2.18",
         "postcss-load-config": "^6.0.1"
     }
 }
