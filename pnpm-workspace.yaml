@@ -24,7 +24,7 @@ catalogs:
         "@rsbuild/core": ^1.7.0
         "@rslib/core": ~1.0.0
         # vite
-        vitest: ^4.1.11
+        vitest: ^5.0.0
         vite-tsconfig-paths: ^6.1.0
         # react
         "@types/react": ^19.3.0
