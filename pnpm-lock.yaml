@@ -181,8 +181,8 @@ importers:
   templates/lynx-web:
     dependencies:
       '@lynx-js/web-core':
-        specifier: ~0.26.0
-        version: 0.26.0(@lynx-js/lynx-core@0.1.3)(tslib@2.8.1)
+        specifier: ~0.26.1
+        version: 0.26.1(@lynx-js/lynx-core@0.1.3)(tslib@2.8.1)
       '@lynx-js/web-elements':
         specifier: ~0.12.11
         version: 0.12.11(tslib@2.8.1)
@@ -965,20 +965,6 @@ packages:
     peerDependencies:
       '@lynx-js/react': '*'
 
-  '@lynx-js/web-core@0.26.0':
-    resolution: {integrity: sha512-ZX1Ex1tne+8hpPgUDPl/1YuFaigW5jsuDT3bSMcgSNY71Oxuiv+v19QZ7eReBFIam8D4+X4UWIpqf1i9p992dw==}
-    peerDependencies:
-      '@lynx-js/animax': 0.1.0-alpha.0
-      '@lynx-js/lynx-core': 0.1.4
-      tslib: ^2.5.0
-    peerDependenciesMeta:
-      '@lynx-js/animax':
-        optional: true
-      '@lynx-js/lynx-core':
-        optional: true
-      tslib:
-        optional: true
-
   '@lynx-js/web-core@0.26.1':
     resolution: {integrity: sha512-/AM5xUxfYfCv9WrsLuFtI5ryzQvKTENHBfYBlbrgA2ljHft97VyNWNXygQOY+p/tgydfqn8oP8TTeX567hcVtQ==}
     peerDependencies:
@@ -993,11 +979,6 @@ packages:
       tslib:
         optional: true
 
-  '@lynx-js/web-elements@0.12.10':
-    resolution: {integrity: sha512-NMLKr7X+Tq3uV8XNwLYxuzjGrh3KK1LTL1mdn9ycaMmgNrUYJKEaavoOa/wuJyHbaBcW3wXD86j7YyDcNPPdUQ==}
-    peerDependencies:
-      tslib: ^2.5.0
-
   '@lynx-js/web-elements@0.12.11':
     resolution: {integrity: sha512-wlEHchfKPNIsWi2mEBfYFPTNf1FAa7ebRsHoRH5YgYIB6AcVHWB/HKquJ0ZI5Hxi+Wcv89UAi6HECpEv3kOi4g==}
     peerDependencies:
@@ -1005,9 +986,6 @@ packages:
 
   '@lynx-js/web-rsbuild-server-middleware@0.26.1':
     resolution: {integrity: sha512-JEns+geLh1N1e/J+w9NsdV1z8BjKZf1XNF4CD8yuKYjK8NZdt+4R2FM0gfZ3nZ4gkGKgW57qsD/6jiPkku1L9w==}
-
-  '@lynx-js/web-worker-rpc@0.26.0':
-    resolution: {integrity: sha512-89sNjLOZEFjhf4N5/iQ+ewzeljk7/r0BoZ2thycz+RfLfk6wDUji8dQ/2oAYuQxWJD5wN3QUhVP5FjhgHnGk9Q==}
 
   '@lynx-js/web-worker-rpc@0.26.1':
     resolution: {integrity: sha512-ub7fpbd4JiyR1P4D+VHWyGKbCCmsZDPJGsndjpVb459QI6s8ogBW5FcAH/gIYHmh4eU05YhIs5sH6knEDzNKaA==}
@@ -2376,9 +2354,6 @@ packages:
     resolution: {integrity: sha512-KMReFUr0B4t+D+OBkjR3KYqvocp2XaSzO55UcB6mgQMd3KbcE+mWTyvVV7D/zsdEbNnV6acZUutkiHQXvTr1Rw==}
     engines: {node: '>= 8'}
 
-  argparse@3.0.1:
-    resolution: {integrity: sha512-nM4mHF/KM1v59ZNKX7zfusQz5wUAxR511YG8Vo6TyiV4aqhu++rbJW4v04xsWhpSsHFj66flT8P7znVpyO20xQ==}
-
   argparse@3.0.2:
     resolution: {integrity: sha512-mFdDM6WqWKraGLsVb+C9CahPnzTXOefAOLq3jYcca2YZ8bEWpr++Tzj+zSaKW9+X9L5uSxcm1AZ3Y6aZJ09OhQ==}
 
@@ -2670,9 +2645,6 @@ packages:
     resolution: {integrity: sha512-cgwlv/1iFQiFnU96XXgROh8xTeetsnJiDsTc7TYCLFd9+/WNkIqPTxiM/8pSd8VIrhXGTf1Ny1q1hquVqDJB5w==}
     engines: {node: '>= 4'}
 
-  dompurify@3.4.14:
-    resolution: {integrity: sha512-dVoH9z+MY+C9IilgGCk3YfFqjLi3fChm2OiKJMzh6axrJ5qwxqWaZamgmHrpv22CN/KdbZJuGEGgfQoL00LTdg==}
-
   dompurify@3.4.15:
     resolution: {integrity: sha512-EUBjM+B+lkDE41iE82DDSCfkoPGfXx8IxFxPMjNzm/Uk4xDet77rTN9wqlxlVg71kK7XGuUMv6wUxJUwwv+Xyw==}
 
@@ -2717,10 +2689,6 @@ packages:
   entities@6.0.1:
     resolution: {integrity: sha512-aN97NXWF6AWBTahfVOIrB/NShkzi5H7F9r1s9mD3cDj4Ko5f2qhhVoYMibXF7GlLveb/D2ioWay8lxI97Ven3g==}
     engines: {node: '>=0.12'}
-
-  entities@8.0.0:
-    resolution: {integrity: sha512-zwfzJecQ/Uej6tusMqwAqU/6KL2XaB2VZ2Jg54Je6ahNBGNH6Ek6g3jjNCF0fG9EWQKGZNddNjU5F1ZQn/sBnA==}
-    engines: {node: '>=20.19.0'}
 
   entities@8.1.0:
     resolution: {integrity: sha512-kxL7msIffSuh9aaFAMD7rxAIuTRMAHMeBtgHW2yUdWw732ZNh4MehkF2gdjvtdmikkaIP9bFDDJOPlsvm7avrA==}
@@ -3133,10 +3101,6 @@ packages:
 
   magic-string@0.30.21:
     resolution: {integrity: sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==}
-
-  markdown-it@15.0.1:
-    resolution: {integrity: sha512-9/7gE95FNPkfUWrjJIoHZza2iLmuJlPD0UNMxPi7bxUrbCR525YZY0r+zyfes0dZI5ZZ/uNIXUJca0pJvtw41g==}
-    hasBin: true
 
   markdown-it@15.0.2:
     resolution: {integrity: sha512-q4IGxMv56jCqT4OCRCADBoDP3LO4MhmTXjFbphHPXs4g3j9Xg5RDnxqN8IF/3vIWEU+VCnUq+7JUg/cfy2E6Qw==}
@@ -4858,7 +4822,7 @@ snapshots:
       '@jridgewell/trace-mapping': 0.3.31
       '@lynx-js/css-serializer': 0.1.9
       '@lynx-js/tasm': 0.0.49
-      '@lynx-js/web-core': 0.26.1(tslib@2.8.1)
+      '@lynx-js/web-core': 0.26.1(@lynx-js/lynx-core@0.1.3)(tslib@2.8.1)
       '@lynx-js/webpack-runtime-globals': 0.0.8
       '@rspack/lite-tapable': 1.1.5
       css-tree: 3.2.1
@@ -4877,29 +4841,14 @@ snapshots:
     dependencies:
       '@lynx-js/react': 0.116.3(@lynx-js/types@3.7.0)(@types/react@19.3.0)
 
-  '@lynx-js/web-core@0.26.0(@lynx-js/lynx-core@0.1.3)(tslib@2.8.1)':
-    dependencies:
-      '@lynx-js/css-serializer': 0.1.9
-      '@lynx-js/web-elements': 0.12.10(tslib@2.8.1)
-      '@lynx-js/web-worker-rpc': 0.26.0
-      wasm-feature-detect: 1.9.0
-    optionalDependencies:
-      '@lynx-js/lynx-core': 0.1.3
-      tslib: 2.8.1
-
-  '@lynx-js/web-core@0.26.1(tslib@2.8.1)':
+  '@lynx-js/web-core@0.26.1(@lynx-js/lynx-core@0.1.3)(tslib@2.8.1)':
     dependencies:
       '@lynx-js/css-serializer': 0.1.9
       '@lynx-js/web-elements': 0.12.11(tslib@2.8.1)
       '@lynx-js/web-worker-rpc': 0.26.1
       wasm-feature-detect: 1.9.0
     optionalDependencies:
-      tslib: 2.8.1
-
-  '@lynx-js/web-elements@0.12.10(tslib@2.8.1)':
-    dependencies:
-      dompurify: 3.4.14
-      markdown-it: 15.0.1
+      '@lynx-js/lynx-core': 0.1.3
       tslib: 2.8.1
 
   '@lynx-js/web-elements@0.12.11(tslib@2.8.1)':
@@ -4909,8 +4858,6 @@ snapshots:
       tslib: 2.8.1
 
   '@lynx-js/web-rsbuild-server-middleware@0.26.1': {}
-
-  '@lynx-js/web-worker-rpc@0.26.0': {}
 
   '@lynx-js/web-worker-rpc@0.26.1': {}
 
@@ -6053,8 +6000,6 @@ snapshots:
       normalize-path: 3.0.0
       picomatch: 2.3.2
 
-  argparse@3.0.1: {}
-
   argparse@3.0.2: {}
 
   array-buffer-byte-length@1.0.2:
@@ -6357,10 +6302,6 @@ snapshots:
     dependencies:
       domelementtype: 2.3.0
 
-  dompurify@3.4.14:
-    optionalDependencies:
-      '@types/trusted-types': 2.0.7
-
   dompurify@3.4.15:
     optionalDependencies:
       '@types/trusted-types': 2.0.7
@@ -6406,8 +6347,6 @@ snapshots:
   entities@4.5.0: {}
 
   entities@6.0.1: {}
-
-  entities@8.0.0: {}
 
   entities@8.1.0: {}
 
@@ -6901,15 +6840,6 @@ snapshots:
   magic-string@0.30.21:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
-
-  markdown-it@15.0.1:
-    dependencies:
-      argparse: 3.0.1
-      entities: 8.0.0
-      linkify-it: 6.1.0
-      mdurl: 2.1.0
-      punycode.js: 2.3.1
-      uc.micro: 3.0.0
 
   markdown-it@15.0.2:
     dependencies:
