@@ -20,7 +20,7 @@
         "@lynx-js/rspeedy": "~0.18.0",
         "@lynx-js/types": "^3.6.0",
         "@rsbuild/core": "catalog:dep",
-        "@rsbuild/plugin-type-check": "^1.6.0",
+        "@rsbuild/plugin-type-check": "^1.6.1",
         "@types/react": "^19.3.0",
         "postcss-load-config": "^6.0.1"
     }
