@@ -184,8 +184,8 @@ importers:
         specifier: ~0.26.8
         version: 0.26.8(@lynx-js/lynx-core@0.1.3)(tslib@2.8.1)
       '@lynx-js/web-elements':
-        specifier: ~0.12.17
-        version: 0.12.17(tslib@2.8.1)
+        specifier: ~0.12.18
+        version: 0.12.18(tslib@2.8.1)
       react:
         specifier: catalog:dep
         version: 19.3.1
@@ -994,11 +994,6 @@ packages:
         optional: true
       tslib:
         optional: true
-
-  '@lynx-js/web-elements@0.12.17':
-    resolution: {integrity: sha512-NuEEhxzzughWWV0Aa0oQZO3HM0TZ64I8FMIgF7fQHCx7Y/MDbc/FnQfkBX56orAhbTz3zQeu1kUVOohbiFFM/Q==}
-    peerDependencies:
-      tslib: ^2.5.0
 
   '@lynx-js/web-elements@0.12.18':
     resolution: {integrity: sha512-Zi3gFqpMvUvIClU6PZkjeer8wIeWubFdssouGSs81hn98xxgkm4f2tVBoEp16QudcT8bzEZUJUwEGdPixb0xiw==}
@@ -2529,9 +2524,6 @@ packages:
   domhandler@5.0.3:
     resolution: {integrity: sha512-cgwlv/1iFQiFnU96XXgROh8xTeetsnJiDsTc7TYCLFd9+/WNkIqPTxiM/8pSd8VIrhXGTf1Ny1q1hquVqDJB5w==}
     engines: {node: '>= 4'}
-
-  dompurify@3.4.16:
-    resolution: {integrity: sha512-sqo+pNp3qRhCIpbgRi1y8Tgk27Bo2Ry7w0dC1NBeNTdZChWjz9Xb/KOoZbRP/R6pQZ80Qw8YhXw13hWWBbMRnQ==}
 
   dompurify@3.4.18:
     resolution: {integrity: sha512-ofe3wI/uNm68HInABYFJYqQxRw1EaKAjNdrFVKqjUY+UZurvNd2L/HuQe097s/4RivWiZyP6tT7aoT8atjfhwg==}
@@ -4613,12 +4605,6 @@ snapshots:
       '@lynx-js/lynx-core': 0.1.3
       tslib: 2.8.1
 
-  '@lynx-js/web-elements@0.12.17(tslib@2.8.1)':
-    dependencies:
-      dompurify: 3.4.16
-      markdown-it: 15.0.2
-      tslib: 2.8.1
-
   '@lynx-js/web-elements@0.12.18(tslib@2.8.1)':
     dependencies:
       dompurify: 3.4.18
@@ -5837,10 +5823,6 @@ snapshots:
   domhandler@5.0.3:
     dependencies:
       domelementtype: 2.3.0
-
-  dompurify@3.4.16:
-    optionalDependencies:
-      '@types/trusted-types': 2.0.7
 
   dompurify@3.4.18:
     optionalDependencies:
